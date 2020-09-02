@@ -4,7 +4,8 @@
 ### custom functions to load
 source("~/Desktop/Functions_for_code_upload/Functions_to_load.R")
 
-# load sce R file from Walker et al. 
+# load sce R file from Walker et al.
+require(SingleCellExperiment)
 sc_experiment <- readRDS("~/Desktop/RawData_FigureReproduce/GSE131038_ilc_R_sce_object_Figure7A.RData")
 # load cluster partition of Walker et al.
 cluster <- read.delim("~/Desktop/RawData_FigureReproduce/GSE131038_ilc_R_sce_object_clusters_Figure7A.tsv", header = F)

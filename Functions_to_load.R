@@ -6,14 +6,12 @@ require(RaceID)
 require(FateID)
 require(RColorBrewer)
 require(stringr)
-library(clusterProfiler)
-library("org.Mm.eg.db")
-library(ReactomePA)
-library(scran)
-library(scater)
-library(Matrix)
-library(Seurat)
-library(cluster)
+require(clusterProfiler)
+require("org.Mm.eg.db")
+require(Matrix)
+require(Seurat)
+require(cluster)
+
 
 ##library size normalization seurat count object
 getRC_object <- function(object) {
