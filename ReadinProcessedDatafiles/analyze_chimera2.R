@@ -76,7 +76,7 @@ Chim1don1 <- givecells(donor_number, "Chim1")
 Chim1don2 <- givecells(donor_number, "Chim1", a=c(5,6,7,8))
 Chim2don1 <- givecells(donor_number, "Chim2")
 Chim2don2 <- givecells(donor_number, "Chim2", a=c(5,6,7,8))   
-   
+#### donor only plate   
 ChimdonS1 <- givecells(host_number, "ChieldD")
 ChimdonS2 <- givecells(donor_number, "ChieldD")
      
